@@ -1,0 +1,7 @@
+{
+    "$schema": "https://raw.githubusercontent.com/liurenjie520/holiday-cn/master/schema.json",
+    "$id": "https://raw.githubusercontent.com/liurenjie520/holiday-cn/master/2022.json",
+    "year": 2022,
+    "papers": [],
+    "days": []
+}
