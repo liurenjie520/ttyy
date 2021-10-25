@@ -3,8 +3,7 @@
     "$id": "https://raw.githubusercontent.com/liurenjie520/holiday-cn/master/2021.json",
     "year": 2021,
     "papers": [
-        "http://www.gov.cn/zhengce/content/2020-11/25/content_5564127.htm",
-        "http://www.gov.cn/zhengce/content/2021-10/25/content_5644835.htm"
+        "http://www.gov.cn/zhengce/content/2020-11/25/content_5564127.htm"
     ],
     "days": [
         {
@@ -20,51 +19,6 @@
         {
             "name": "元旦",
             "date": "2021-01-03",
-            "isOffDay": true
-        },
-        {
-            "name": "春节",
-            "date": "2021-01-29",
-            "isOffDay": false
-        },
-        {
-            "name": "春节",
-            "date": "2021-01-30",
-            "isOffDay": false
-        },
-        {
-            "name": "春节",
-            "date": "2021-01-31",
-            "isOffDay": true
-        },
-        {
-            "name": "春节",
-            "date": "2021-02-01",
-            "isOffDay": true
-        },
-        {
-            "name": "春节",
-            "date": "2021-02-02",
-            "isOffDay": true
-        },
-        {
-            "name": "春节",
-            "date": "2021-02-03",
-            "isOffDay": true
-        },
-        {
-            "name": "春节",
-            "date": "2021-02-04",
-            "isOffDay": true
-        },
-        {
-            "name": "春节",
-            "date": "2021-02-05",
-            "isOffDay": true
-        },
-        {
-            "name": "春节",
-            "date": "2021-02-06",
             "isOffDay": true
         },
         {
@@ -114,11 +68,6 @@
         },
         {
             "name": "清明节",
-            "date": "2021-04-02",
-            "isOffDay": false
-        },
-        {
-            "name": "清明节",
             "date": "2021-04-03",
             "isOffDay": true
         },
@@ -134,18 +83,8 @@
         },
         {
             "name": "劳动节",
-            "date": "2021-04-24",
-            "isOffDay": false
-        },
-        {
-            "name": "劳动节",
             "date": "2021-04-25",
             "isOffDay": false
-        },
-        {
-            "name": "劳动节",
-            "date": "2021-04-30",
-            "isOffDay": true
         },
         {
             "name": "劳动节",
@@ -174,28 +113,8 @@
         },
         {
             "name": "劳动节",
-            "date": "2021-05-07",
-            "isOffDay": false
-        },
-        {
-            "name": "劳动节",
             "date": "2021-05-08",
             "isOffDay": false
-        },
-        {
-            "name": "端午节",
-            "date": "2021-06-03",
-            "isOffDay": true
-        },
-        {
-            "name": "端午节",
-            "date": "2021-06-04",
-            "isOffDay": true
-        },
-        {
-            "name": "端午节",
-            "date": "2021-06-05",
-            "isOffDay": true
         },
         {
             "name": "端午节",
@@ -210,21 +129,6 @@
         {
             "name": "端午节",
             "date": "2021-06-14",
-            "isOffDay": true
-        },
-        {
-            "name": "中秋节",
-            "date": "2021-09-10",
-            "isOffDay": true
-        },
-        {
-            "name": "中秋节",
-            "date": "2021-09-11",
-            "isOffDay": true
-        },
-        {
-            "name": "中秋节",
-            "date": "2021-09-12",
             "isOffDay": true
         },
         {
@@ -289,18 +193,8 @@
         },
         {
             "name": "国庆节",
-            "date": "2021-10-08",
-            "isOffDay": false
-        },
-        {
-            "name": "国庆节",
             "date": "2021-10-09",
             "isOffDay": false
-        },
-        {
-            "name": "元旦",
-            "date": "2022-01-01",
-            "isOffDay": true
         }
     ]
 }
