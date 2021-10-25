@@ -7,7 +7,7 @@ class Default:
     # Default config
     year = str(year)
     other = "other2021.json"
-    yj = "2022.json"
+    yj = year+".json"
     name = "节假日"
 
 class MonthDate:
