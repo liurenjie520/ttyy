@@ -12,7 +12,7 @@ def sd():
     year = datetime.datetime.today().year
     # Default config
     year = str(year)
-    with open(file=year+"节假日.ics", encoding="utf8", mode="w") as file_object:
+    with open(file="holiday.ics", encoding="utf8", mode="w") as file_object:
         start_string = "BEGIN:VCALENDAR\nVERSION:2.0\nCALSCALE:GREGORIAN\nMETHOD:PUBLISH\nX-WR-CALNAME:" \
                        + config.Default.name + "\nX-WR-TIMEZONE:Asia/Shanghai\n" \
                        + "X-WR-CALDESC:"+year+"节假日\n"
@@ -24,7 +24,7 @@ def sd():
             body0 = body_string[0]
             body1 =   item[1] + 'almanac_in_' + config.Default.year + "\n"
             body2 = "DTSTART;VALUE=DATE:" + item[1] + "\nDTEND;VALUE=DATE:" + item[1] + "\n"
-            beizhu = "DESCRIPTION:" +'放假通知: '+ item[3]+ "\n"
+            beizhu = "DESCRIPTION:" +'国务院办公厅节假日安排的通知: '+ item[3]+ "\n"
             body3 = "SUMMARY:" + item[0] +'  '+ item[2] + "\n"
             body4 = body_string[1]
             full_body = body0 + body1 + body2 +beizhu+ body3 + body4
