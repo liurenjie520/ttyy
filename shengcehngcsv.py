@@ -26,8 +26,10 @@ def sd():
             body2 = "DTSTART;VALUE=DATE:" + item[1] + "\nDTEND;VALUE=DATE:" + item[1] + "\n"
             beizhu = "DESCRIPTION:" +'国务院办公厅节假日安排的通知: '+ item[3]+ "\n"
             body3 = "SUMMARY:" + item[0] +'  '+ item[2] + "\n"
+            tixing0 = "BEGIN:VALARM" + "\n" + "TRIGGER;VALUE=DATE-TIME:" + item[1] + "T000800Z" + "\n"
+            tixing1 = "ACTION:DISPLAY" + "\n" + "END:VALARM" + "\n"
             body4 = body_string[1]
-            full_body = body0 + body1 + body2 +beizhu+ body3 + body4
+            full_body = body0 + body1 + body2 +beizhu+ body3 +tixing0 +tixing1 + body4
             file_object.write(full_body)
         end_string = "END:VCALENDAR"
         file_object.write(end_string)
