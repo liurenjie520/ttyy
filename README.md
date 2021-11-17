@@ -7,7 +7,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/c8e9d9c51bd2d858c577/test_coverage)](https://codeclimate.com/github/NateScarlet/holiday-cn/test_coverage)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
 
-中国法定节假日数据 自动每日抓取国务院公告2
+中国法定节假日数据 自动每日抓取国务院公告23
 
 - [x] 提供 JSON 格式节假日数据
 - [x] CI 自动更新
