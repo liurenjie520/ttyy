@@ -8,7 +8,7 @@ class Default:
     todayy=datetime.datetime.now().strftime('%d')
     today=int(todayy)
     if month >= 10:
-        if today >= 26:
+        if today >= 11:
             year = year + 1
 
 
