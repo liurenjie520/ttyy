@@ -4,13 +4,13 @@ import datetime
 from datetime import date, timedelta
 class Default:
     year = datetime.datetime.today().year
-    month = datetime.datetime.today().month
-    todayy=datetime.datetime.now().strftime('%d')
-    today=int(todayy)
-    if month >= 10:
-        if today >= 11:
-            year = year + 1
-
+    today = datetime.datetime.today()
+    d = datetime.datetime.strptime('2021/11/17', '%Y/%m/%d')
+    if today > d:
+        # print("888")
+        year = year + 1
+    else:
+        print("当年数据")
 
     # Default config
     year = str(year)
