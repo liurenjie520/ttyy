@@ -5,7 +5,9 @@ from datetime import date, timedelta
 class Default:
     year = datetime.datetime.today().year
     today = datetime.datetime.today()
-    d = datetime.datetime.strptime('2021/11/17', '%Y/%m/%d')
+    y = datetime.datetime.now().year
+    y = str(y)
+    d = datetime.datetime.strptime(f'{y}/11/17', '%Y/%m/%d')
     if today > d:
         # print("888")
         year = year + 1
